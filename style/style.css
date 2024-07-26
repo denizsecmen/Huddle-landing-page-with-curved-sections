@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'Poppins' ;
+  src: url('../fonts/Poppins-Light.ttf');
+}
+body{
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Poppins';
+}
+header{
+  padding-left: 2%;
+  padding-right: 2%;
+  display: flex;
+  height: 80px;
+  align-items: center;
+  font-size: 42px;
+}
+header > #logo{
+  display: flex;
+  align-items: center;
+}
+header>#logo>img{
+  width: 32px;
+  height: 32px;
+}
+header>#layout-flex
+{
+  width: 85%;
+  flex-shrink: 1;
+}
+header>button{
+  height: 42px;
+  display: flex;
+  align-items: center;
+  padding: 50%;
+  font-weight: lighter;
+  border-radius: 200px!important;
+  color: hsl(321, 100%, 78%)!important;
+  border: 1px solid hsl(321, 100%, 78%)!important;
+  font-weight: bolder!important;
+  outline: none!important;
+  box-shadow: 0px!important;
+}
+header>button:focus{
+  background-color: white!important;
+  box-shadow: 0px!important;
+  outline: none!important;
+  outline-color: white!important;
+  box-shadow: 0 0 0 0px hsl(321, 100%, 78%)!important;
+}
+header>button:hover{
+  box-shadow: 0px!important;
+  background-color: white!important;
+  cursor: pointer;
+}

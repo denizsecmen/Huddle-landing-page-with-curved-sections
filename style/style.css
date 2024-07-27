@@ -2,10 +2,20 @@
   font-family: 'Poppins' ;
   src: url('../fonts/Poppins-Light.ttf');
 }
+html{
+  padding: 0;
+  margin: 0;
+}
 body{
-  width: 100vw;
-  height: 100vh;
+  width: 100vw!important;
+  min-height: 100vh;
   font-family: 'Poppins';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 header{
   padding-left: 2%;
@@ -14,6 +24,7 @@ header{
   height: 80px;
   align-items: center;
   font-size: 42px;
+  width: 100%;
 }
 header > #logo{
   display: flex;
@@ -52,4 +63,38 @@ header>button:hover{
   box-shadow: 0px!important;
   background-color: white!important;
   cursor: pointer;
+}
+menu{
+  width: 70vw!important;
+  min-height: 100vh!important;
+  padding: 0%;
+}
+menu>#intro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+menu>#intro>#intro-desc{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center!important;
+  word-break: normal;
+  width: 100%;
+}
+menu>#intro>#intro-desc>#title{
+  font-size: 32px;
+  width: 100%;
+  margin-bottom: 10px;
+  font-weight: bolder;
+}
+menu>#intro>#intro-desc>#text{
+  width: 60%;
+}
+menu>#intro>img{
+  width:65%!important;
+  height: 30%;
+  margin-top: 10px;
 }

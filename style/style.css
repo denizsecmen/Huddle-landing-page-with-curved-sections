@@ -7,15 +7,15 @@ html{
   margin: 0;
 }
 body{
-  width: 100vw!important;
+  width: 98vw!important;
   min-height: 100vh;
   font-family: 'Poppins';
   display: flex;
   flex-direction: column;
   align-items: center;
+  container-type:inline-size;
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
 }
 header{
   padding-left: 2%;
@@ -67,6 +67,9 @@ header>button:hover{
 menu{
   width: 70vw!important;
   min-height: 100vh!important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   padding: 0%;
 }
 menu>#intro{
@@ -94,7 +97,39 @@ menu>#intro>#intro-desc>#text{
   width: 60%;
 }
 menu>#intro>img{
-  width:65%!important;
+  width:70%!important;
   height: 30%;
   margin-top: 10px;
+}
+menu>#intro>#intro-desc>#intro-button{
+  border: 0px!important;
+  outline: 0px;
+  height: 60px;
+  width: 30%;
+  background-color:  hsl(321, 100%, 78%);
+  font-weight: bolder;
+  border-radius: 50px;
+  color: white;
+  font-size: 21px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+menu>#info-card{
+  width: 70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+menu>#info-card > .info-box > img{
+  margin-top: 60px;
+  width: 32px;
+  height: 32px;
+}
+menu>#info-card > .info-box > .stat{
+  font-size: 60px;
+  font-weight: bolder;
+}
+menu>#info-card > .info-box > .info-box-text{
+  text-align: center;
+  color: gray;
 }

@@ -133,3 +133,43 @@ menu>#info-card > .info-box > .info-box-text{
   text-align: center;
   color: gray;
 }
+menu>#info-card2{
+  margin-top: 150px;
+  width:100rem;
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+}
+menu>#info-card2> #bg1
+{
+  width: 100rem;
+  height: 100px;
+}
+menu>#info-card2>#info-data{
+  height: 400px;
+  width: 100rem;
+  background-color: hsl(207, 100%, 98%);
+  z-index: -1;
+  padding-left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+menu>#info-card2>#info-data>#textarea{
+  width: 50%;
+  height: 200px;
+  margin-right: 10%;
+}
+menu>#info-card2>#info-data>#textarea>#title{
+  font-weight: bolder;
+  font-size: 32px;
+}
+menu>#info-card2>#info-data> img{
+  width: 350px;
+  height: 350px;
+}
+menu>#info-card2>#bg2{
+  transform: scale(-1,-1);
+  height: 100px;
+  width: 100rem;
+}

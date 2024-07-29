@@ -140,9 +140,10 @@ menu>#info-card > .info-box > .info-box-text{
 menu>#info-card2{
   margin-top: 150px;
   width:100rem;
-  height: 550px;
+  height: 800px;
   display: flex;
   flex-direction: column;
+  margin-bottom: 250px;
 }
 menu>#info-card2> #bg1
 {
@@ -150,11 +151,11 @@ menu>#info-card2> #bg1
   height: 100px;
 }
 menu>#info-card2>#info-data{
-  height: 400px;
+  height: 800px!important;
   width: 100rem;
   background-color: hsl(207, 100%, 98%);
   z-index: -1;
-  padding-left: 30%;
+  padding-left: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -169,8 +170,8 @@ menu>#info-card2>#info-data>#textarea>#title{
   font-size: 32px;
 }
 menu>#info-card2>#info-data> img{
-  width: 350px;
-  height: 350px;
+  width: 600px;
+  height: 600px;
 }
 menu>#info-card2>#bg2{
   transform: scale(-1,-1);
@@ -180,15 +181,23 @@ menu>#info-card2>#bg2{
 menu>#info-card3{
   margin-top: 150px;
   width:100rem;
-  height: 550px;
+  height: 800px;
   padding-left: calc(100% - 60% - 350px);
 }
 menu>#info-card3>#info-box{
-  height: 400px;
-  width: 100rem;
   display: flex;
 }
+menu>#info-card3>#info-box>#textarea{
+  height: 400px; 
+  flex-direction: row;
+  width: 50%;
+}
+menu>#info-card3>#info-box>#textarea>#title{
+  font-size: 32px;
+  font-weight: bolder;
+}
 menu>#info-card3>#info-box> img{
-  width: 350px;
-  height: 350px;
+  width: 600px;
+  height: 600px;
+  margin-right: 100px;
 }

@@ -115,10 +115,14 @@ menu>#intro>#intro-desc>#intro-button{
   cursor: pointer;
 }
 menu>#info-card{
-  width: 70%;
+  width: 65%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+}
+menu>#info-card > .info-box{
+  width: 150px;
+  min-height: 300px;
 }
 menu>#info-card > .info-box > img{
   margin-top: 60px;
@@ -172,4 +176,19 @@ menu>#info-card2>#bg2{
   transform: scale(-1,-1);
   height: 100px;
   width: 100rem;
+}
+menu>#info-card3{
+  margin-top: 150px;
+  width:100rem;
+  height: 550px;
+  padding-left: calc(100% - 60% - 350px);
+}
+menu>#info-card3>#info-box{
+  height: 400px;
+  width: 100rem;
+  display: flex;
+}
+menu>#info-card3>#info-box> img{
+  width: 350px;
+  height: 350px;
 }

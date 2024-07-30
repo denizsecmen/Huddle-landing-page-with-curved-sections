@@ -137,20 +137,20 @@ menu>#info-card > .info-box > .info-box-text{
   text-align: center;
   color: gray;
 }
-menu>#info-card2{
+menu>.info-card2{
   margin-top: 150px;
   width:100rem;
-  height: 800px;
+  height: 600px;
   display: flex;
   flex-direction: column;
-  margin-bottom: 250px;
+  margin-bottom: 100px;
 }
-menu>#info-card2> #bg1
+menu>.info-card2> #bg1
 {
   width: 100rem;
   height: 100px;
 }
-menu>#info-card2>#info-data{
+menu>.info-card2>#info-data{
   height: 800px!important;
   width: 100rem;
   background-color: hsl(207, 100%, 98%);
@@ -160,44 +160,48 @@ menu>#info-card2>#info-data{
   justify-content: center;
   align-items: center;
 }
-menu>#info-card2>#info-data>#textarea{
-  width: 50%;
+menu>.info-card2>#info-data>#textarea{
+  width: 40%;
   height: 200px;
   margin-right: 10%;
 }
-menu>#info-card2>#info-data>#textarea>#title{
+menu>.info-card2>#info-data>#textarea>#title{
   font-weight: bolder;
   font-size: 32px;
 }
-menu>#info-card2>#info-data> img{
-  width: 600px;
-  height: 600px;
+menu>.info-card2>#info-data> img{
+  width: 400px;
+  height: 400px;
 }
-menu>#info-card2>#bg2{
+menu>.info-card2>#bg2{
   transform: scale(-1,-1);
   height: 100px;
   width: 100rem;
 }
 menu>#info-card3{
-  margin-top: 150px;
   width:100rem;
-  height: 800px;
+  height: 600px;
   padding-left: calc(100% - 60% - 350px);
+  display: flex;
+  flex-direction: row;
+  align-items:center ;
+  margin-top: 50px;
 }
 menu>#info-card3>#info-box{
   display: flex;
+  align-items: center;
 }
 menu>#info-card3>#info-box>#textarea{
-  height: 400px; 
-  flex-direction: row;
-  width: 50%;
+  height: 200px; 
+  flex-direction: row;;
+  width: 40%;
 }
 menu>#info-card3>#info-box>#textarea>#title{
   font-size: 32px;
   font-weight: bolder;
 }
 menu>#info-card3>#info-box> img{
-  width: 600px;
-  height: 600px;
+  width: 400px;
+  height: 400px;
   margin-right: 100px;
 }

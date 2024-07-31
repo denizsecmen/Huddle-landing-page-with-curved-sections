@@ -101,7 +101,7 @@ menu>#intro>img{
   height: 30%;
   margin-top: 10px;
 }
-menu>#intro>#intro-desc>#intro-button{
+.button-big{
   border: 0px!important;
   outline: 0px;
   height: 60px;
@@ -204,4 +204,18 @@ menu>#info-card3>#info-box> img{
   width: 400px;
   height: 400px;
   margin-right: 100px;
+  margin-bottom: 100px;
+}
+menu>#build-community-button{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+menu>#build-community-button>#text{
+  font-size: 32px;
+  font-weight: bolder;
+  margin-bottom: 30px;
 }

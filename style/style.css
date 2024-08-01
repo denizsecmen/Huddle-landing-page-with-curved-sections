@@ -219,3 +219,14 @@ menu>#build-community-button>#text{
   font-weight: bolder;
   margin-bottom: 30px;
 }
+footer>img{
+  z-index: -1;
+  width: 100vw;
+  margin-top: 150px;
+}
+footer>#components{
+  width: 100vw;
+  z-index: -1;
+  height: 400px;
+  background-color: hsl(192, 100%, 9%);
+}

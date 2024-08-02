@@ -225,8 +225,55 @@ footer>img{
   margin-top: 150px;
 }
 footer>#components{
-  width: 100vw;
+  width: 100%;
   z-index: -1;
   height: 400px;
   background-color: hsl(192, 100%, 9%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+footer>#components>#contract>.con img {
+  width: 21px;
+  height: 21px;
+}
+footer>#components>#contract>.con{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+footer>#components>#contract>#social-media{
+  display: flex;
+  width: 15%;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+footer>#components>#contract>#social-media img{
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+footer>#components>#contract>#social-media>#ins{
+  width: 47px;
+  height: 32px;
+}
+footer>#components>#contract>#title{
+  width: 100px;
+  height: 50px;
+  width: 35%;
+  fill: white;  
+  font-size: 40px;
+  display: flex;
+  font-weight: bolder;
+  margin-bottom: 10px;
+  align-items: center;
+}
+footer>#components>#contract>#text{
+  font-size: 14px;
+  word-break: break-all;
+  width: 35%;
+}
+footer>#components>#contract>.con div{
+  margin-left: 10px;
 }

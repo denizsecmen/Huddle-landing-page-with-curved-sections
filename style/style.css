@@ -3,7 +3,91 @@
   src: url('../fonts/Poppins-Light.ttf');
 }
 @media screen and (max-width:375px) {
-    
+  body{
+    overflow-x: scroll!important;
+    max-width: 100%!important;
+  }
+  #info-card{
+    display: flex;
+    flex-direction: column!important;
+    justify-content: center;
+    align-items: center;
+  }
+  #info-data{
+    display: flex;
+    max-width: 100%!important;
+    flex-direction: column!important;
+    justify-content: center;
+    align-items: center;
+  }
+  #info-data>img{
+    width: 300px;
+    height: 300px;
+  }
+  menu>.info-card2{
+    display: flex;
+    flex-direction: column;
+  }
+  menu>.info-card2 img{
+    width: 100%!important;
+  }
+  menu>.info-card2>#info-data img{
+    order: 1;
+    width: 270px!important;
+    height: 270px!important;
+    margin-top: 10px;
+  }
+  menu>.info-card2 #textarea
+  {
+    width: 100%!important;
+    order: 2;
+  }
+  menu>#info-card3>#info-box{
+    display: flex!important;
+    width: 100%!important;
+    flex-direction: column!important;
+    align-items: center!important;
+    justify-content: flex-end!important;
+  }
+  menu>#info-card3>#info-box img{
+    width: 270px!important;
+    height: 270px!important;
+    margin-left: 30%;
+  }
+  menu>#info-card3>#info-box>#textarea{
+    width: 80%!important;
+    display: flex;
+    margin-left: 20px;
+    flex-direction: column!important;
+  }
+  footer{
+    width: 100vw;
+  }
+  footer>img{
+    width: 100%!important;
+    order: 1;
+  }
+  footer{
+    height: 800px!important;
+    background-color: hsl(192, 100%, 9%);
+  }
+  footer>#components{
+    display: flex;
+    order: 2;
+    flex-direction: column!important;
+  }
+  footer >#components #newsletter{
+    width: 90%!important;
+    order: 1!important;
+    margin-bottom: 20px;
+  }
+  footer>#components #contract{
+    order: 2!important;
+    width: 100%;
+  }
+  footer>#components #contract>#text{
+    width: 100%;
+  }
 }
 html{
   padding: 0;
@@ -108,7 +192,7 @@ menu>#intro>img{
   border: 0px!important;
   outline: 0px;
   height: 60px;
-  width: 30%;
+  width: 350px;
   background-color:  hsl(321, 100%, 78%);
   font-weight: bolder;
   border-radius: 50px;
@@ -142,7 +226,7 @@ menu>#info-card > .info-box > .info-box-text{
 }
 menu>.info-card2{
   margin-top: 150px;
-  width:100rem;
+  width:100vw;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -155,7 +239,7 @@ menu>.info-card2> #bg1
 }
 menu>.info-card2>#info-data{
   height: 800px!important;
-  width: 100rem;
+  width: 100vw;
   background-color: hsl(207, 100%, 98%);
   z-index: -1;
   padding-left: 10%;
@@ -179,10 +263,10 @@ menu>.info-card2>#info-data> img{
 menu>.info-card2>#bg2{
   transform: scale(-1,-1);
   height: 100px;
-  width: 100rem;
+  width: 100vw;
 }
 menu>#info-card3{
-  width:100rem;
+  width:100vw;
   height: 600px;
   padding-left: calc(100% - 60% - 350px);
   display: flex;
